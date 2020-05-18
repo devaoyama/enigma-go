@@ -42,7 +42,6 @@ func InitEnigma(rotorsAmount int) *Machine {
 	}
 	reflector := NewReflector(getReflectAlphabet())
 	machine := newMachine(plugBoard, rotors, reflector)
-
 	return machine
 }
 
