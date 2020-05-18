@@ -33,7 +33,7 @@ func newMachine(plugBoard *PlugBoard, rotors []*Rotor, reflector *Reflector) *Ma
 	return machine
 }
 
-func InitMachine(rotorsAmount int) *Machine {
+func InitEnigma(rotorsAmount int) *Machine {
 	plugBoard := NewPlugBoard(getRandomAlphabet())
 	var rotors []*Rotor
 	for i := 0; i < rotorsAmount; i++ {
